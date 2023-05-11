@@ -5,7 +5,7 @@ const MongoClient = require('mongodb').MongoClient
 require('dotenv').config()
 
 console.log('We\'re cooking with grease baby')
-
+console.log("Did we delete the .env file?")
 let db,
     dbConnectionString = process.env.DB_STRING,
     dbName = 'sample_mflix',
