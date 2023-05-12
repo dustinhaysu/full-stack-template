@@ -18,7 +18,7 @@
 
 //5. Create Port
 
-//----Test Mongo and Port Connection
+//----Test Mongo and Port Connection in with nodemon, terminal, and console.log()
 
 //6. Set middleware
 

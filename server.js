@@ -5,7 +5,6 @@ const MongoClient = require('mongodb').MongoClient
 require('dotenv').config()
 
 console.log('We\'re cooking with grease baby')
-console.log("Did we delete the .env file?")
 let db,
     dbConnectionString = process.env.DB_STRING,
     dbName = 'sample_mflix',
@@ -16,4 +15,8 @@ MongoClient.connect(dbConnectionString)
         console.log('Connected to Database')
         db = client.db(dbName)
         collection = db.collection('movies')
+    })
+
+    app.listen(process.env.PORT || PORT, ()=> {
+        console.log(`Server is running on port ${process.env.PORT || PORT}`)
     })
