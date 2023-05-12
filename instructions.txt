@@ -31,8 +31,8 @@
     
 // install heroku CLI - https://devcenter.heroku.com/articles/heroku-cli
 // heroku login
-// heroku create simple-rap-api
-// echo "web: node server.js" > Procfile
+// heroku create morning-eyrie-72695(specify a name or heroku will create one for you)
+// echo "web: node server.js" > Procfile - tells heroku how the app is being deployed
 // git add . 
 // git commit -m "changes"
 // git push heroku main
