@@ -28,6 +28,8 @@
 
 //11. Create heroku repo
 
+    
+// install heroku CLI - https://devcenter.heroku.com/articles/heroku-cli
 // heroku login
 // heroku create simple-rap-api
 // echo "web: node server.js" > Procfile
