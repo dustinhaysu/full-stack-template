@@ -3,30 +3,30 @@
 
 //2. Require dependencies in server.js
 
-//--nodemon in package.json:--"scripts": {
+//3 activate nodemon in package.json:--"scripts": {
 //    "test": "echo \"Error: no test specified\" && exit 1",
 //    "start": "nodemon server.js"
 //  }
 
-//3. Declare variables
+//4. Declare variables
 
-//7. Create gitignore file and push to github
+//5. Create gitignore file and push to github
 
 //4. Connect to MongoDB - add connection string to .env file
 
 //5. Add .env file to gitignore
 
-//5. Create Port
+//6. Create Port
 
-//----Test Mongo and Port Connection in with nodemon, terminal, and console.log()
+//7.----Test Mongo and Port Connection in with nodemon, terminal, and console.log()
 
-//6. Set middleware
+//8. Set middleware
 
-//8. Create Public and Views folders - add main.js and style.css to Public and index.ejs to Views
+//9. Create Public and Views folders - add main.js and style.css to Public and index.ejs to Views
 
-//9. From root, init local git repo and commit
+//10. From root, init local git repo and commit
 
-//10. Create heroku repo
+//11. Create heroku repo
 
 // heroku login
 // heroku create simple-rap-api

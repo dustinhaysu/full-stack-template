@@ -25,6 +25,35 @@ app.use(express.urlencoded({extended:true}))
 app.use(express.json())
 app.use(cors())
 
+//READ***********************************
+app.get('/', async (request, response) => {
+    try {
+        response.render('index.ejs')
+    } catch (error) {
+        response.status(500).send({message: error.message})
+    }
+})
+
+
+//CREATE******************************/
+
+app.post('/quotes', (request, response) => {
+    console.log('create')
+})
+
+// UPDATE *********************/
+
+app.put('/put', (request, response) => {
+    console.log('update')
+})
+
+//DELETE**********************************/
+
+app.delete('/delete', (request, response) => {
+    console.log('Delete')
+})
+
+
 
     app.listen(process.env.PORT || PORT, ()=> {
         console.log(`Server is running on port ${process.env.PORT || PORT}`)
